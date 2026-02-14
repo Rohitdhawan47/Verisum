@@ -1,0 +1,14 @@
+# VeriSum - Local Frontend Requirements
+# Install with: pip install -r requirements.txt
+
+# Web Framework
+streamlit>=1.31.0
+
+# HTTP Requests
+requests>=2.31.0
+
+# PDF Processing (for page counting only)
+PyMuPDF>=1.23.8
+
+# Note: The heavy ML dependencies (transformers, torch, keybert, etc.)
+# are NOT needed locally - they run on the Kaggle backend
